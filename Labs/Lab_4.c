@@ -35,7 +35,7 @@ void findMax(int tree[], size_t N) {
 }
 
 int main() {
-  size_t N = 7;
+  size_t N = 15;
 
   /* Max: 30 | Level: 4 | Cousins: 4, 7 */
    int tree[] = {9, 6, 10, 5, 8, -1, 20, 4, -1, 7, -1, -1, -1, -1, 30};

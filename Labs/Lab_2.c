@@ -2,33 +2,23 @@
 #include <stdlib.h>
 #include <math.h>
 /*
-// Disaridan verilen 2 adet N basamakli sayi ayri ayri linkli listelerde saklanmaktadir.
-// Sayilari toplayip sonucu tek bir degiskende saklayip ekrana yazdiran programin C kodu asagida eksik verilmistir.
-
-// Doldurulmasi gereken fonksiyonlar:
-// -push: Verilen degeri linkli listenin basina ekler.
-// -addLinkedLists: Iki linkli listedeki sayilari kucuk basamaktan baslayarak toplar,
-// elde varsa (carry) tasima yapar ve sonucu tek bir int degisken olarak dondurur.
-
-// Sayilar dizilerde (digits1, digits2) duz sirayla verilmistir (buyuk basamaktan kucuk basamaga).
-
-//Girdi:  N:4
-//Liste 1:   9->3->2->1->NULL (1239'u temsil eder, kucuk basamak basta)
-//Liste 2:   8->1->3->4->NULL (4318'i temsil eder)
-
-//Cikti:
-//Sonuc: 5557
-
-/////////////////////////////////////////////////////////////////////////////
-
-//.c uzantili lab dosyanizi grupno_ogrenciNo_isim_soyisim.c seklinde isimlendiriniz.
-
-//Ornek: GR1_25011000_Isim_Soyisim.c
-
-//Lab sonunda hocalar izin verdiginde interneti acip asagidaki form linkine .c uzantili kodunuzu yukleyiniz.
-
-//https://l24.im/fThRV
-*/
+ * Disaridan verilen 2 adet N basamakli sayi ayri ayri linkli listelerde saklanmaktadir.
+ * Sayilari toplayip sonucu tek bir degiskende saklayip ekrana yazdiran programin C kodu asagida eksik verilmistir.
+ *
+ * Doldurulmasi gereken fonksiyonlar:
+ * -push: Verilen degeri linkli listenin basina ekler.
+ * -addLinkedLists: Iki linkli listedeki sayilari kucuk basamaktan baslayarak toplar,
+ * elde varsa (carry) tasima yapar ve sonucu tek bir int degisken olarak dondurur.
+ *
+ * Sayilar dizilerde (digits1, digits2) duz sirayla verilmistir (buyuk basamaktan kucuk basamaga).
+ *
+ * Girdi:  N:4
+ * Liste 1:   9->3->2->1->NULL (1239'u temsil eder, kucuk basamak basta)
+ * Liste 2:   8->1->3->4->NULL (4318'i temsil eder)
+ *
+ * Cikti:
+ * Sonuc: 5557
+ */
 
 typedef struct Node {
     int data;
