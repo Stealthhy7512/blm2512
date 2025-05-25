@@ -1,0 +1,4 @@
+- Lab 1: Graded 100%
+- Lab 2: Graded 100%
+- Lab 3: TBA
+- Lab 4: TBA
