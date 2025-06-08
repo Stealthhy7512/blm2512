@@ -1,8 +1,8 @@
-# Solutions to YTU year of 2024-2025 BLM2512: Data Structures and Algorithms course lab work and assignments.
+# 2024-2025 BLM2512: Data Structures and Algorithms
 
-Assignment problem statements are uploaded and source codes are well documented. 
+This repository contains solutions to lab work and assignments for the *BLM2512* course at Yildiz Technical University. All problem statements are included, all source code is thoroughly documented, and grading results are included.
 
-Lab works have problem statements embedded inside source code files.
+---
 
 ## Content
 
@@ -12,8 +12,14 @@ Lab works have problem statements embedded inside source code files.
 3) [n-ary tree](Assignments/3)
 4) [Weightless graph](Assignments/4)
 
-### Lab Work
+### Lab
 1) [Generic algorithm *(dynamic memory)*](Labs/Lab_1.c)
-2) [Linked list ad hoc](Labs/Lab_2.c)
-3) [Stack and queue ad hoc](Labs/Lab_3.c)
+2) [Linked list ad hoc *(arithmetic addition)*](Labs/Lab_2.c)
+3) [Stack and queue ad hoc *(arithmetic addition)*](Labs/Lab_3.c)
 4) [Array represented binary tree](Labs/Lab_4.c)
+
+---
+
+## Author
+
+Kaan Yazici
